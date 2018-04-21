@@ -1,0 +1,430 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-image:url('img.jpg');
+	opacity: 0.9;
+	background-size: 100% 110%;*/
+	width:100vw;
+	height:100%;
+}
+
+header{
+	width:100vw;
+	height: 90px;
+	background-color: rgba(0,0,0,0.4);
+	display: flex;
+}
+
+.lefttop{
+	width:25%;
+	line-height: 90px;
+	flex-direction: left;
+}
+
+.lefttop h4{
+	padding-left:50px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 28px;
+}
+
+.righttop{
+	width: 75%;
+	flex-direction: right;
+}
+
+.righttop ul{
+	margin-left: 200px;
+}
+
+.righttop ul li{
+	display: inline-flex;
+	font-size: 16px;
+	line-height: 90px;
+	margin-left: 60px;
+}
+
+.righttop ul li a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	list-style: none;
+	text-decoration:none;
+}
+
+.righttop ul li a:hover{
+	font-size: 20px;
+	color: blue;
+}
+
+.righttop ul li a.now{
+	font-size: 20px;
+	color: blue;
+}
+
+ footer{
+ 	height: 70px;
+ 	padding-top: 30px;
+ 	background-color: rgba(0,0,0,0.8);
+ 	color: white;
+ }
+
+ .copyright{
+ 	text-align: center;
+ }
+
+.findme{
+	float: right;
+}
+
+.findme ul{
+	display: inline-flex;
+}
+
+.findme ul li{
+	list-style: none;
+	padding-right: 30px;
+}
+
+.findme ul li a{
+		text-decoration: none;
+}
+
+.findme ul li:hover {
+    opacity: .65;
+    transition: transform .3s;
+}
+
+
+/* indexcss*/
+
+.mainbody{
+	margin-top:4%;
+	margin-bottom: 2%;
+	width: 100vw;
+	height: 480px;
+}
+
+.container{
+
+	margin-left: 20%;
+	display: inline-flex;
+	height:465px;
+	width: 900px;
+	box-shadow: 0 4px 8px 4px rgba(0,0,0,0.8);
+    transition: 0.3s;
+
+}
+
+.maincontainer {
+	height:465px;
+	width:450px;
+	border-right: 1.5px solid grey;
+}
+
+.maincontainer img{
+	height:425px;
+	width:415px;
+	padding-top: 20px;
+	padding-left: 20px;
+	flex-direction: left;
+
+}
+
+
+.sidecontainer{
+	text-transform: uppercase;
+	color: lightgray;
+	padding-left: 40px;
+}
+
+.sidecontainer h4{
+	 padding-top:60px;
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 22px;
+ }
+
+ .sidecontainer p{
+ 	padding-top:12px;
+ 	font-weight: bolder;
+ 	font-size: 20px;
+ }
+
+
+
+/* CVcss*/
+
+
+
+.CVcontainer{
+	width: 100%;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	padding-left:10px;
+ 	padding-right: 10px;
+ 	display: flex;
+ 	flex-wrap: nowrap;
+ 	flex-direction: row;
+ }
+
+ .CVleft{
+ 	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 4%;
+	height:900px;
+	width: 400px;
+	box-shadow: 0 4px 8px 4px rgba(0,0,0,0.8);
+	transition: 0.3s;
+ }
+
+
+.CVleft img{
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+	border-radius: 100%;
+	padding-bottom: 10px;
+}
+
+.image{
+	border-bottom: 2px solid red;
+	text-align: center;
+	padding-bottom: 3px;
+}
+
+.Info{
+	padding-left: 10px;
+	padding-top: 6px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border-bottom: 2px solid red;
+	padding-bottom: 3px;
+}
+
+.Info ul li{
+	padding-top: 3px;
+	list-style: none;
+}
+
+.Language{
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	text-transform: uppercase;
+}
+
+
+
+.Language .skillbox{
+	position: relative;
+	margin: auto;
+	margin-bottom: 3px;
+	padding: 13px 13px;
+	background: gray;
+	border: 0.8px solid rgba(255,255,255,0.1);
+	box-shadow: 0 4px 4px 2px rgba(0,0,0,0.3);
+	clear: both;
+}
+
+.Language .skillbox h4{
+	flex-direction: left;
+	padding-right: 30px;
+}
+
+.Language .skillbox p{
+	flex-direction: right;
+}
+
+
+
+
+ .CVright{
+ 	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 4%;
+	margin-right: 4%;
+	height:900px;
+	width: 900px;
+	box-shadow: 0 4px 8px 4px rgba(0,0,0,0.8);
+	transition: 0.3s;
+}
+
+
+/*about CSS*/
+
+.aboutmain{
+ margin-top: 3%;
+ margin-bottom: 3%;
+ margin-left: 13%;
+ height:900px;
+ width: 1000px;
+ box-shadow: 0 4px 8px 4px rgba(0,0,0,0.8);
+ transition: 0.3s;
+}
+
+.aboutmain img{
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+	border-radius: 100%;
+	padding-bottom: 10px;
+}
+
+
+
+
+.aboutmain h2{
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+}
+
+.aboutcontent{
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.aboutcontent p{
+
+	font-size: 11px;
+
+}
+
+/*contact CSS*/
+
+.contactmain{
+	width: 100%;
+	height: 500px;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	padding-left:10px;
+ 	padding-right: 10px;
+ 	display: flex;
+ 	flex-wrap: nowrap;
+ 	flex-direction: row;
+}
+
+.contactleft{
+ margin-top: 3%;
+ margin-bottom: 3%;
+ margin-left: 10%;
+ height:420px;
+ width: 450px;
+ box-shadow: 0 4px 8px 4px rgba(0,0,0,0.8);
+ transition: 0.3s;
+}
+
+
+.contactright{
+ margin-top: 3%;
+ margin-bottom: 3%;
+ margin-left: 4%;
+ margin-right: 10%;
+ height:420px;
+ width: 450px;
+ box-shadow: 0 4px 8px 4px rgba(0,0,0,0.8);
+ transition: 0.3s;
+}
+
+.contactleft h1{
+	text-align: center;
+}
+
+form{
+	padding-left: 20px auto;
+	width: 320px;
+}
+
+input{
+	padding:10px;
+	font-size: inherit;
+}
+
+input[type="text"]{
+	display: block;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	width:90%;
+	border: 2px solid gray;
+	border-radius: 20px;
+	background:#FAF6D9;
+}
+
+textarea{
+	display: block;
+	padding-left: 80px;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	width:77%;
+	height: 150px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	background:#FAF6D9;
+}
+
+input[type="submit"]{
+	width:40%;
+	height: 45px;
+	border:1px solid;
+	border-radius: 100px;
+	margin-left: 130px;
+}
+
+input[type="submit"]:focus{
+	width:40%;
+	height: 45px;
+	border:1px solid;
+	border-radius: 100px;
+	margin-left: 130px;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	width:42%;
+	height: 50px;
+	border:1px solid;
+	border-radius: 100px;
+	margin-left: 130px;
+
+}
+
+
+input:focus{
+	background:white;
+}
+
+textarea:focus{
+	background:white;
+}
+
+
+/*socialcss*/
+
+.socialmain{
+ margin-top: 3%;
+ margin-bottom: 3%;
+ margin-left: 20%;
+ height:510px;
+ width: 1000px;
+ box-shadow: 0 4px 8px 4px rgba(0,0,0,0.8);
+ transition: 0.3s;
+}
+
+.socialmain h1{
+	text-align: center;
+}
+
+.socialmain img{
+	margin: 50px 50px 50px 50px;
+	height: 128px;
+	width: 128px;
+}
